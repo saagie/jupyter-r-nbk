@@ -54,4 +54,4 @@ USER $NB_USER
 WORKDIR /notebooks-dir
 
 # Default: run without authentication
-CMD ["start-notebook.sh", "--NotebookApp.token=''"]
+CMD ["start-notebook.sh", "--NotebookApp.token=''", "--NotebookApp.password=''"]
